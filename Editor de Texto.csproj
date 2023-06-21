@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -78,6 +79,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\abrir.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cadastro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fonte.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\italico.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\justificado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\negrito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salvar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sublinhado.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nvo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\copiar.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
